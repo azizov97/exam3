@@ -1,0 +1,50 @@
+* {
+  font-family: "Lobster";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #c44747;
+}
+
+.btn {
+  background: #e93c3c;
+  border-radius: 25px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff8ee;
+}
+
+.borderTime {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border: 10px solid #e93c3c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  color: #e93c3c;
+}
+
+#btnBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
